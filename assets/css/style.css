@@ -1023,11 +1023,8 @@ About Style
 */
 
 #about {
-  padding-top: 130px;
-}
-
-.about-left-image img {
-  margin-right: 45px;
+  background:right 75% / 55% no-repeat url("../images/burchak.png");
+    /* background-position: top left; */
 }
 
 .about-right-content p {
@@ -1719,8 +1716,9 @@ Blog
   margin-left: 30px;
 }
 
-.post-item {
-  margin-bottom: 62px;
+.post-item img {
+  height: 250px;
+  width: 100%;
 }
 
 .last-post-item {
